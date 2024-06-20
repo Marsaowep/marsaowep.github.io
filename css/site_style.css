@@ -1,0 +1,141 @@
+/* overall style */
+* {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* basic styles */
+body {
+    background-color:rgb(229, 191, 147);
+}
+
+h1 {
+    color:rgb(0, 0, 99);
+}
+
+h2 {
+    color: darkred;
+}
+
+h3 {
+    font-size: 26px;
+    color: rgb(1, 1, 156);
+}
+
+p {
+    text-align: justify;
+    text-indent: 16px;
+    font-size: 18px;
+}
+
+/* table style */
+table {
+    background-color: rgb(83, 83, 83);
+    color:white;
+    border-style: double;
+    border-color:black;
+    text-indent: 12px;
+    text-align: center;
+    
+}
+
+/* table header style */
+th {
+    background-color:black;
+    color:white;
+}
+
+/* table button style */
+td {
+    border: 0.5px solid;
+    border-color:black;
+}
+
+/* button and its hover style */
+button {
+    background-color:gray;
+    color: white;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: darkgray;
+
+}
+
+/* unordered list style */
+ul {
+    font-size: 20px;
+    background-color:lightgoldenrodyellow;
+}
+
+/* ordered list style */
+ol {
+    font-size: 20px;
+}
+
+img {
+    max-width: 90%;
+    position: relative;
+    float: center;
+}
+
+/* class image posistion style */
+.imgPo {
+    text-align: center;
+}
+
+/* class pageIntro style */
+.pageIntro {
+    text-align: center;
+    text-indent: 2px;
+}
+
+/* class page buttons style */
+.pageButtons {
+    background-color:gray;
+    text-align: right;
+}
+
+
+/* Provided by Pro in HTML - CSS(3) video
+/* For mobile phones: */
+[class*="col-"]{
+    width: 95%;
+    float: left;
+    padding: 15px;  
+}
+
+@media only screen and (min-width: 600px){
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px){
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* end of provided code */
